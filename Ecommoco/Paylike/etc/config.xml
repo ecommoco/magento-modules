@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <payment>
+                <paylike>								
+                <title>Paylike</title>
+                <payment_action>Sale</payment_action>
+                <visible_on_cart>1</visible_on_cart>
+                <order_status>pending_payment</order_status>				
+                <model>Ecommoco\Paylike\Model\Paylike</model>               			                
+            </paylike>
+            <!-- payment-config -->
+        </payment>
+    </default>
+</config>
